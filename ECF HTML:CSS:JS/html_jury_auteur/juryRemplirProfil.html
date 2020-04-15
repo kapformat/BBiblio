@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <title>BBiblio</title>
+  <link rel="stylesheet" href="../styles/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+  <div id="bodyMain">
+    <header>
+      <div id="header">
+        <h1><a href="../index.html#titleHome">BBiblio</a></h1>
+
+
+      </div>
+    </header>
+
+    <hr size="5" width="100%" color="orange">
+    <div id="body">
+
+      <div id="news">NEWS
+
+      </div>
+
+      <h1>Jury Profil à remplir</h1>
+
+      <form method="GET" name="juryRemplir" id="juryRemplir">
+        <div id="info">
+          <p>
+            Veuillez entrez les informations demandées pour vous inscrire:
+          </p>
+        </div>
+        <input type="text" name="pseudo" placeholder="Pseudo" id="Pseudo"><br>
+        <input type="password" name="pwd" placeholder="Mot de passe" id="pwd"><br>
+        <input type="password" name="pwd" placeholder="confirmez mot de passe" id="pwd2"><br>
+        <!--Au moins 1 chexkbox à select-->
+        <input class="check" type="checkbox" id="romFr" name="romFr" checked>
+        <label for="select">Roman Français</label>
+        <input class="check" type="checkbox" id="romEt" name="romEt">
+        <label for="select">Roman Etranger</label><br>
+        <input class="check" type="checkbox" id="doc" name="doc">
+        <label for="selcet">Documentaire</label>
+        <input class="check" type="checkbox" id="biographie" name="bio">
+        <label for="select">Biographie</label><br>
+
+        <input type="submit" value="Inscription">
+
+        <p style="color: red;" id="paraError"></p>
+      </form>
+
+
+
+
+      <div id="reglement">
+
+        <h2>Reglement :</h2>
+        <p>
+          A sa première connexion, il est invité à changer le mot de passe qui doit comprendre majuscules et minuscules,
+          10 caractères minimum et au moins un chiffre. Il lui est demandé ensuite de remplir son profil.
+          Il lui sera demandé également de choisir la ou les catégories pour lesquelles il souhaite être juré.
+          Une fois choisie(s), il n’est pas possible de revenir en arrière.
+        </p>
+      </div>
+
+
+      <hr size="5" width="60%" color="orange">
+    </div>
+
+
+  </div>
+
+
+  <footer>
+    <hr size="5" width="100%" color="orange">
+    <div id="footer">
+
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit officia maxime a, voluptas cupiditate
+        expedita est dolorem. Voluptates voluptate, eos debitis, dolorem temporibus, saepe laboriosam atque vero
+        corrupti labore quos?</p>
+    </div>
+  </footer>
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="../scripts/juryRemplir.js"></script>
+</body>
+
+
+</html>
